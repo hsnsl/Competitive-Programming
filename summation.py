@@ -1,0 +1,5 @@
+a=int(input())
+b=int(input())
+x=max(a,b)
+n=min(a,b)
+print((x*(x+1)-n*(n+1)+2*n)//2)
